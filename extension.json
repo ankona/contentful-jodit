@@ -1,0 +1,6 @@
+{
+  "id": "joditEditor",
+  "name": "Jodit WYSIWYG Editor",
+  "srcdoc": "index.html",
+  "fieldTypes": ["Symbol", "Text"]
+}  
