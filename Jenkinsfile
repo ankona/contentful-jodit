@@ -42,12 +42,5 @@ pipeline {
                 sh "contentful extension update --force --space-id $SPACE_ID"
             }
         }
-        stage('Archive Build Result') {
-            steps {
-                zip archive: true, dir: 'dist', glob: '', zipFile: "jodit-ext-build-${env.BUILD_NUMBER}.zip"
-            }            
-        }
     }
-   
-
 }
